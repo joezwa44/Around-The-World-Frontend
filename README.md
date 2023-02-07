@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-[Deployment Link](https://Around-The-World-Frontend.joezwa44.repl.co)
+[Live Deployment Link](https://Around-The-World-Frontend.joezwa44.repl.co)
 
 
 ## Available Scripts
