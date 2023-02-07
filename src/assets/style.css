@@ -1,0 +1,710 @@
+/**********************Home.html************************/
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  .main-bg {
+    width: 100%;
+    position: relative;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    position: absolute;
+    color: white;
+    
+  }
+  
+  .searchbar {
+      position: absolute;
+      top: 12%;
+      right: 9%;
+      z-index: 1;
+  }
+  
+  img.searchicon {
+      position: absolute;
+      right: 5%;
+      top: 11%;
+      width: 3%;
+  }
+  
+  i {
+    display: flex;
+    align-items: center;
+  }
+  
+  img.home-icon {
+    width: 80%;
+  }
+  
+  img.home-icon2 {
+    width: 6%;
+  }
+  
+  div.footer {
+    margin-top: 400px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  p.fav {
+    margin-right: 3%;
+    margin-top: 1%;
+  }
+  
+  p.fav2 {
+    margin-left: 77%;
+  }
+  
+  
+  h1.popular-places {
+    text-align: center;
+    font-family: monospace;
+    color: dodgerblue;
+    margin-top: 150px;
+  }
+
+  section.popular-places {
+    text-align: center;
+    font-family: monospace;
+    color: dodgerblue;
+    margin-top: 150px;
+  }
+  
+  .attractions {
+      text-align: center;
+      font-family: monospace;
+      color: dodgerblue;
+  }
+  
+  img.images {
+    width: 45%;
+    margin-left: 20%;
+    margin-top: 10%;
+  }
+  
+  img.images2 {
+    width: 45%;
+    margin-left: 20%;
+    margin-top: 10%;
+  }
+  
+  p.place-d {
+    width: 45%;
+    margin-left: 20%;
+    color: dodgerblue;
+  }
+  
+  h4.place-n {
+    width: 45%;
+    margin-left: 20%;
+    color: dodgerblue;
+  }
+  
+  .heart-icon {
+    width: 40px;
+    margin-bottom: 200px;
+    margin-left: 50px;
+    position: relative;
+  }
+  
+  .lightblue-backg {
+    width: 20%;
+    margin-left: 3%;
+    margin-top: 30px;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  
+  img.sphinx {
+      width: 15%;
+      position: relative;
+      left: 5vw;
+      bottom: 23vw;
+  }
+  
+  button.sphinx {
+      color: dodgerblue;
+      position: relative;
+      bottom: 22vw;
+      right: 5vw;
+      color: dodgerblue;
+      border: none;
+      font-size: 20px;
+      font-weight: bold;
+      background-color: transparent;
+  }
+  
+  .lightblue-backg2 {
+    width: 20%;
+    margin-left: 3%;
+    margin-top: 30px;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  
+  img.colos {
+      position: relative;
+      width: 13%;
+      left: 10vw;
+      bottom: 26vw;
+  }
+  
+  button.colos{
+      position: relative;
+      color: dodgerblue;
+      right: none;
+      bottom: 22vw;
+      color: dodgerblue;
+      border: none;
+      font-size: 20px;
+      font-weight: bold;
+      background-color: transparent;
+  }
+  
+  .lightblue-backg3 {
+    width: 20%;
+    margin-left: 3%;
+    margin-top: 30px;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  
+  img.taj {
+      position: relative;
+      width: 12%;
+      left: 15.5vw;
+      bottom: 26vw;
+  }
+  
+  button.taj {
+      position: relative;
+      bottom: 22vw;
+      left: 6.5vw;
+      color: dodgerblue;
+      border: none;
+      font-size: 20px;
+      font-weight: bold;
+      background-color: transparent;
+  }
+  
+  .lightblue-backg4 {
+    width: 20%;
+    margin-left: 3%;
+    margin-top: 30px;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  
+  img.eiffel {
+      width: 12%;
+      position: relative;
+      left: 22vw;
+      bottom: 27vw;
+  }
+  
+  button.eiffel {
+      position: relative;
+      bottom: 22vw;
+      left: 13vw;
+      color: dodgerblue;
+      border: none;
+      font-size: 20px;
+      font-weight: bold;
+      background-color: transparent;
+  }
+  
+  button.fav {
+      position: relative;
+      color: dodgerblue;
+      right: 27.5vw;
+      bottom: 13vw;
+      background: lightblue;
+      border: none;
+      font-size: 20px;
+      font-weight: bold;
+  }
+  
+  a.alink {
+      text-decoration: none;
+  }
+  
+  .img {
+    display: flex;
+  }
+  
+  .likebtn {
+    position: relative;
+    bottom: 74%;
+    left: 57%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .like {
+      width: 38%;
+      position: relative;
+      left: 58%;
+      bottom: 73%;
+      -webkit-filter: drop-shadow(1px 1px 0 black) drop-shadow(-1px -1px 0 black);
+      filter: drop-shadow(1px 1px 0 black) drop-shadow(-1px -1px 0 black);
+  }
+  
+  
+  .footer1 {
+    color: dodgerblue;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer2 {
+    color: dodgerblue;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer3 {
+    color: dodgerblue;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  p.rights {
+      text-align: right;
+  }
+  
+  p.sitemap {
+      text-align: center;
+      margin-top: 6%;
+  }
+  
+  i.foot {
+      margin-top: 15%;
+      margin-bottom: -6%;
+  }
+  
+  
+  
+  
+  /* *********************************Attractions of the World****************************** */
+  
+  .nav-world {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      top: 0;
+      width: 100%;
+      color: dodgerblue;
+      position: absolute;
+  }
+  
+  h1.world {
+    font-family: unset;
+    color: dodgerblue;
+    margin-top: 16%;
+    margin-left: 5%;
+    font-size: 5vw;
+  }
+  
+  .attractions2 {
+      text-align: center;
+      font-family: monospace;
+      color: dodgerblue;
+      margin-top: 15%;
+  }
+
+  .around2 {
+    color: dodgerblue;
+  }
+
+  .search-icon {
+    width: 50%;
+    margin-top: 4vw;
+  }
+
+  .search-bar {
+    margin-top: 4vw;
+  }
+
+  /*******************************************************************/
+  
+  header {
+    width: 100%;
+  }
+  header nav {
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 98%;
+    padding: 10px 10px;
+  }
+  header nav img {
+    width: 150px;
+  }
+  header .search {
+    position: absolute;
+    top: 15%;
+    right: 0%;
+    width: 30%;
+  }
+  header .search input {
+    position: relative;
+    width: 90%;
+    padding: 15px 10px;
+    border: 0;
+    border-radius: 12px;
+    background-color: #fff;
+    opacity: 0.4;
+    caret-color: #198593;
+    text-emphasis-color: #198593;
+  }
+  header .search input:hover {
+    border: 1px solid #198593;
+  }
+  header .search img {
+    width: 40px;
+    position: absolute;
+    right: 10%;
+    top: 0%;
+  }
+  ::placeholder {
+    color: #198593;
+  }
+  /************************
+  *****Media Screen
+  *************************/
+  @media screen and (max-width: 540px) {
+    header nav img {
+      width: 100px;
+    }
+    header nav {
+      width: 94%;
+    }
+    header .search {
+      width: 90%;
+    }
+    header .search img {
+      right: 6%;
+    }
+  }
+  /************************
+  *****Places Header
+  *************************/
+  header .places-header {
+    display: flex;
+    box-shadow: 0 8px 8px -4px lightblue;
+    justify-content: space-between;
+    width: 98%;
+    padding: 10px 10px;
+  }
+  header .places-header img {
+    width: 150px;
+  }
+  header .places-header .search {
+    position: absolute;
+    top: 15%;
+    right: 0%;
+    width: 30%;
+  }
+  header .search input {
+    position: relative;
+    width: 90%;
+    padding: 15px 10px;
+    border: 2px solid #198593;
+    border-radius: 12px;
+    background-color: #fff;
+    opacity: 0.4;
+  }
+  header .search img {
+    width: 40px;
+    position: absolute;
+    right: 10%;
+    top: 10%;
+  }
+  /************************
+  *****Media Screen
+  *************************/
+  @media screen and (max-width: 540px) {
+    header .places-header {
+      width: 95%;
+    }
+    header .places-header img {
+      width: 100px;
+    }
+    header .places-header .search {
+      width: 90%;
+    }
+    header .search img {
+      right: 6%;
+    }
+  }
+  /************************
+  *****Main
+  *************************/
+  main .main-image img {
+    width: 100%;
+  }
+  .heading {
+    text-align: center;
+    margin: 50px 0px;
+  }
+  .heading p {
+    font-size: 50px;
+    color: #198593;
+    z-index: 0;
+  }
+  main .popular-places {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  main .popular-places img {
+    width: 250px;
+  }
+  .popular-places img:hover {
+    width: 350px;
+    cursor: pointer;
+    -webkit-transition: width 1s ease-out;
+    -moz-transition: width 1s ease-out;
+    -o-transition: width 1s ease-out;
+    transition: width 1s ease-out;
+  }
+  /********************
+  ***Image-grid
+  *********************/
+  main .attractions .grid-container {
+    width: 80%;
+    margin: 50px auto;
+  }
+  main .attractions .grid-container .grid-items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    width: 100%;
+  }
+  main .attractions .grid-container .grid-items .item {
+    width: 100%;
+  }
+  main .attractions .grid-container .grid-items .item .item-image {
+    position: relative;
+    width: 100%;
+  }
+  main .attractions .grid-container .grid-items .item .item-image img {
+    width: 100%;
+  }
+  main .attractions .grid-container .grid-items .item .item-image img.like {
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    width: 30px;
+    top: 0;
+  }
+  main .attractions .grid-container .grid-items .item .item-text {
+    width: 95%;
+  }
+  /************************
+  **Media Screen
+  **************************/
+  @media screen and (max-width: 540px) {
+    main .attractions .grid-container .grid-items {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  /************************
+  **Footer
+  **************************/
+  footer {
+    background-color: #f4f2f2;
+  }
+  footer .copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  footer .copyright img {
+    width: 150px;
+  }
+  footer .privacy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  footer .privacy a {
+    text-decoration: none;
+    color: #198593;
+    font-weight: bolder;
+    font-size: 30px;
+  }
+  footer .version {
+    text-align: center;
+    border-top: 1px solid #198593;
+  }
+  footer .version p {
+    padding: 20px 0px;
+  }
+  /************************
+  *****Media Screen
+  *************************/
+  @media screen and (max-width: 540px) {
+    footer .privacy a {
+      font-size: 15px;
+    }
+    footer .version p {
+      font-size: 15px;
+    }
+  }
+  /************************
+  *****Category
+  *************************/
+  .places-container {
+    width: 90%;
+    margin: 200px auto;
+  }
+  h2.place-heading {
+    padding: 50px 0px;
+    color: #198593;
+    font-size: 5rem;
+  }
+  .places-container .places-items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+  }
+  .places-container .places-items .category-list {
+    width: 100%;
+  }
+  .places-container .places-items .category-list .category-image {
+    position: relative;
+    width: 100%;
+  }
+  .places-container .places-items .category-list .category-image img {
+    width: 100%;
+  }
+  .places-container .places-items .category-list .category-image .like {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    width: 40px;
+  }
+  
+  .places-container
+    .places-items
+    .category-list
+    .category-text
+    .category-heading {
+    font-size: 30px;
+  }
+  .places-container .places-items .category-list .category-text .input-button {
+    margin: 20px 0px;
+  }
+  .places-container .places-items .category-list .category-text .input-button a {
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #198593;
+    border: 0;
+    border-radius: 20px;
+    color: #fff;
+  }
+  /***********************
+  *******Media Screen
+  *************************/
+  @media screen and (max-width: 540px) {
+    .places-container .places-items {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .places-container {
+      margin: 120px auto;
+    }
+    h2.place-heading {
+      font-size: 2rem;
+    }
+  }
+  /************************
+  *****Favorites
+  *************************/
+  .section2 {
+    margin: 200px auto;
+    width: 80%;
+  }
+  .section2 .heading-favorite {
+    color: #198593;
+    font-size: 40px;
+    padding: 30px 0px;
+    font-size: 5rem;
+  }
+  .section2 .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+  }
+  .section2 .grid .favorite-list {
+    width: 100%;
+  }
+  .section2 .grid .favorite-list .favorite-image {
+    width: 100%;
+    position: relative;
+  }
+  .section2 .grid .favorite-list .favorite-image img {
+    width: 100%;
+  }
+  .section2 .grid .favorite-list .favorite-image .like {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    width: 40px;
+  }
+  
+  .section2 .grid .favorite-list {
+    font-size: 30px;
+  }
+  .section2 .grid .favorite-list .input-button {
+    margin: 20px 0px;
+  }
+  .section2 .grid .favorite-list .input-button a {
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #198593;
+    border: 0;
+    border-radius: 20px;
+    color: #fff;
+  }
+  .textcontent {
+    font-size: 20px;
+  }
+  /*******************
+  ***Media Screen
+  *********************/
+  @media screen and (max-width:540px) {
+    .section2 .grid {
+      grid-template-columns: repeat(1,1fr);
+    }
+    .section2 .heading-favorite {
+      font-size: 2rem;
+    }
+  }
